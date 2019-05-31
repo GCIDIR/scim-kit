@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
     File.basename(file)
   end
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.5.0'
+  spec.required_ruby_version = '>= 2.3.3'
   spec.metadata['yard.run'] = 'yri'
 
   spec.add_dependency 'activemodel', '>= 4.2.0'
