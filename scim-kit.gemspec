@@ -30,10 +30,10 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.5.0'
   spec.metadata['yard.run'] = 'yri'
 
-  spec.add_dependency 'activemodel', '>= 5.2.0'
+  spec.add_dependency 'activemodel', '>= 4.2.0'
   spec.add_dependency 'net-hippie', '~> 0.2'
   spec.add_dependency 'parslet', '~> 1.8'
-  spec.add_dependency 'tilt', '~> 2.0'
+  spec.add_dependency 'tilt', '~> 1.4.1'
   spec.add_dependency 'tilt-jbuilder', '~> 0.7'
   spec.add_development_dependency 'bundler', '~> 1.17'
   spec.add_development_dependency 'bundler-audit', '~> 0.6'
